@@ -1,0 +1,129 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;700&display=swap');
+
+* {
+--textColor: #a9a9b3;
+--backgroundColor: #292a2d;
+--headerColor: #252627;
+--green: #A7D46F;
+--title: 2em;
+--content: 1.2em;
+--big: 2.5em;
+}
+
+html {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+.header {
+  width: 100vw;
+  background-color: var(--headerColor);
+  height: 10vh;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 1em;
+  padding-right: .3em;
+  font-weight: 700;
+  font-size: var(--title);
+  border-color: var(--textColor);
+  border-right: 0.2em solid var(--green);
+}
+
+.links {
+  margin-right: 1em;
+  font-weight: 600;
+  font-size: var(--title);
+  border-bottom: 3px solid var(--textColor);
+  transition: border-bottom .5s;
+}
+
+.links:hover {
+  border-bottom: 3px solid var(--green);
+}
+
+li .link {
+  border-bottom: 1px solid var(--textColor);
+  font-size: var(--content);  
+  transition: border-bottom .5s;
+}
+
+li .link:hover {
+  border-bottom: 1px solid var(--green);
+}
+
+.body {
+  padding-top: 1em;
+  background-color: var(--backgroundColor);
+  text-align: center;
+}
+
+.presentation {
+
+}
+
+.pic img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  clip-path: ellipse(50% 50%);
+} 
+
+.names p:first-child{
+  font-size: var(--big);
+  font-weight: 700;
+}
+
+.names p {
+  padding: .5em;
+  font-size: var(--content);
+  font-weight: 400;
+}
+
+.social-container {
+  padding-top: .2em;
+  margin: auto;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social-link {
+  width: 35px;
+}
+
+ul {
+  text-align: left;
+  margin: auto;
+  width: 400px;
+}
+
+ul p {
+  padding-top: .2em;
+  margin-left: var(--content);
+  font-size: var(--title);
+  font-weight: 700;
+}
+
+li {
+  padding-top: .5em;
+  padding-left: var(--content);
+}
+
+.footer {
+
+}
