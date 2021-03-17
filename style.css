@@ -65,12 +65,9 @@ li .link:hover {
 }
 
 .body {
-  padding-top: 1em;
+  padding-top: 10vh;
   background-color: var(--backgroundColor);
   text-align: center;
-}
-
-.body {
 }
 
 .pic img {
