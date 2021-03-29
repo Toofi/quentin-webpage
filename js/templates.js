@@ -2,6 +2,9 @@ export class Template {
 
   getCvTemplate = () => {
     return `
+    <div class="pic cv">
+    <img src="/src/portrait.jpg" alt="my face">
+  </div>
     <div class="cv-container">
       <ul class="cv-ul">
         <p class="cv-title experience">IT :</p>
