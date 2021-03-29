@@ -98,7 +98,6 @@ p {
 
 .social-container {
   padding-top: .2em;
-  margin: auto;
   width: 250px;
   display: flex;
   flex-wrap: nowrap;
@@ -113,7 +112,7 @@ p {
 ul {
   text-align: left;
   margin: auto;
-  width: 100%;
+  width: 300px;
 }
 
 /* ul p {
