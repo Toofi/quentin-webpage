@@ -72,6 +72,7 @@ li .link:hover {
   padding-top: 10vh;
   background-color: var(--backgroundColor);
   text-align: center;
+  opacity: 100%;
 }
 
 .pic img {
