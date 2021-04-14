@@ -16,6 +16,7 @@ html {
   background-color: var(--backgroundColor);
   color: var(--textColor);
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -30,6 +31,7 @@ a {
   width: 100vw;
   background-color: var(--headerColor);
   height: 8vh;
+  padding-right: 1em;
 }
 
 .logo {
@@ -69,9 +71,11 @@ li .link:hover {
 }
 
 .body {
+  width: 100vw;
   padding-top: 10vh;
   background-color: var(--backgroundColor);
   text-align: center;
+  opacity: 100%;
 }
 
 .pic img {
