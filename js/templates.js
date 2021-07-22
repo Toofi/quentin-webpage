@@ -68,14 +68,13 @@ export class Template {
       </ul>
       <ul class="cv-ul">
         <p class="cv-title experience">Skills : </p>
-        <li><p class="cv-title">Javascript <span class="annot"></span></p></li>
-        <li><p class="cv-title">Typescript <span class="annot">(Angular)</span></p></li>
-        <li><p class="cv-title">Node <span class="annot">(Express.js, Moment)</span></p></li>
+        <li><p class="cv-title">Javascript <span class="annot">(ES7, Node, Express)</span></p></li>
+        <li><p class="cv-title">Typescript <span class="annot">(Angular, NestJS)</span></p></li>
         <li><p class="cv-title">CSS <span class="annot">(& SCSS)</span></p></li>
-        <li><p class="cv-title">MySQL <span class="annot"></span></p></li>
-        <li><p class="cv-title">MongoDB <span class="annot"></span></p></li>
-        <li><p class="cv-title">Docker <span class="annot">(& Docker-compose)</span></p></li>
+        <li><p class="cv-title">SQL <span class="annot">(MySQL)</span></p></li>
+        <li><p class="cv-title">NoSQL <span class="annot">(MongoDB & Firebase)</span></p></li>
         <li><p class="cv-title">Git <span class="annot">(Github & Bitbucket)</span></p></li>
+        <li><p class="cv-title">Docker <span class="annot">(& Docker-compose)</span></p></li>
       </ul>
     </div>
   </div>
