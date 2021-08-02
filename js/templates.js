@@ -8,7 +8,7 @@ export class Template {
   <div class="presentation">
     <div class="names">
       <p>Hello !</p>
-      <p>I'm Quentin, I am an IT student.</p>
+      <p>I'm Quentin, I am a former IT student.</p>
       <p>I love coding, learning and playing with my children.</p>
     </div>
     <ul class="social-container">
@@ -22,12 +22,12 @@ export class Template {
             src="/src/linkedin-5-512.png" alt="linkedin link"></a></li>
     </ul>
     <ul>
-      <p>My works :</p>
-      <li><a class="link" href="https://github.com/Toofi/tf-framework">A never finished CSS Framework</a></li>
-      <li><a class="link" href="https://github.com/Toofi/url-reducer">An url reducer</a></li>
+      <p>Some of my works :</p>
+      <li><a class="link" href="https://github.com/Toofi/projet-sgbd">The back-end for a MEAN stack</a></li>
+      <li><a class="link" href="https://github.com/Toofi/integration-web">The front-end for a MEAN stack</a></li>
+      <li><a class="link" href="https://github.com/Toofi/projet2020-2021">A Node/Express/MySQL API, consumed by a SPA made with vanilla Jascript</a></li>
+      <li><a class="link" href="https://github.com/Toofi/restaurantApp">An Angular app I made for my first internship</a></li>
       <li><a class="link" href="https://github.com/Toofi/wp-theme">My own Wordpress theme</a></li>
-      <li><a class="link" href="https://github.com/Toofi/restaurantApp">An Angular app I made for my first
-          internship</a></li>
     </ul>
   </div>
     `
@@ -71,6 +71,7 @@ export class Template {
         <li><p class="cv-title">Javascript <span class="annot">(ES7, Node, Express)</span></p></li>
         <li><p class="cv-title">Typescript <span class="annot">(Angular, NestJS)</span></p></li>
         <li><p class="cv-title">CSS <span class="annot">(& SCSS)</span></p></li>
+        <li><p class="cv-title">Python </p></li>
         <li><p class="cv-title">SQL <span class="annot">(MySQL)</span></p></li>
         <li><p class="cv-title">NoSQL <span class="annot">(MongoDB & Firebase)</span></p></li>
         <li><p class="cv-title">Git <span class="annot">(Github & Bitbucket)</span></p></li>
