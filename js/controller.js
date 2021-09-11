@@ -5,23 +5,25 @@ const template = new Template;
 export class Controller {
   body = document.getElementById('body');
 
-  getHomePage = () => {
-    this.getAnimation(template.getHomePageTemplate());
+  getHomePage = async () => {
+    this.getAnimation(await template.ajaxRequest('GET', 'presentation.html'));
   };
 
-  getCv = () => {
-    this.getAnimation(template.getCvTemplate());
+  getCv = async () => {
+    const result = await template.ajaxRequest('GET', 'CV.html');
+    this.getAnimation(result);
   };
 
   getAnimation = (template) => {
-    body.style.opacity = 0;
+    const container = document.getElementById('body');
+    container.style.opacity = 0;
     setTimeout(() => {
-      body.style.transition = 'opacity .3s cubic-bezier(0.075, 0.82, 0.165, 1)';
+      container.style.transition = 'opacity .3s cubic-bezier(0.075, 0.82, 0.165, 1)';
 
-    }, 1);
-    body.innerHTML = template;
+    }, 5);
+    container.innerHTML = template;
     setTimeout(() => {
-      body.style.opacity = 500;
-    }, 1);
+      container.style.opacity = 100;
+    }, 5);
   }
 };
